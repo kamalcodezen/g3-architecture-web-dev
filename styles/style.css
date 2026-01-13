@@ -19,3 +19,22 @@
     margin: 0 auto;
     padding-inline: 1rem;
 }
+
+/* ----dark 03  */
+.light-gray {
+    color: #727272;
+}
+
+/* ----dark 02 */
+.dark-light-gray {
+    color: #424242;
+}
+/* ---primary color */
+.yellow-color{
+    color: rgba(255, 144, 14, 1);
+}
+
+/* ---common class */
+.display-flex {
+    display: flex;
+}

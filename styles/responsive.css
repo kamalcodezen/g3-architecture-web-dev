@@ -1,0 +1,21 @@
+/* Extra Large Desktop : 1400px → ∞ */
+@media screen and (min-width: 1400px) {}
+
+/* Small Desktop / Laptop : 992px → 1199px */
+@media screen and (max-width: 1199px) {}
+
+/* Tablet (Landscape) : 768px → 991px */
+@media screen and (max-width: 991px) {}
+
+/* Large Mobile : 576px → 767px */
+@media screen and (max-width: 767px) {}
+
+/* Mobile : 360px → 575px */
+@media screen and (max-width: 575px) {
+    .nav-container .nav-menu .nav-item{
+        display: none;
+    }
+    .nav-container{
+        justify-content: center;
+    }
+}

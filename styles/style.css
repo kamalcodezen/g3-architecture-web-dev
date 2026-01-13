@@ -1,0 +1,21 @@
+/* ------google font link---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.font-work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* ------------------------------------------------------------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: min(90%, 1440px);
+    margin: 0 auto;
+    padding-inline: 1rem;
+}

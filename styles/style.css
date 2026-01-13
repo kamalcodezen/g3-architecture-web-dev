@@ -8,6 +8,7 @@
 }
 
 /* ------------------------------------------------------------------------------------ */
+/* ------shared style start---------- */
 * {
     margin: 0;
     padding: 0;
@@ -41,17 +42,37 @@
 }
 
 /* ----common text===== */
-.text-info {
+.text-primary {
     font-size: 1rem;
     font-weight: 1.25rem;
+    color: #424242;
+    line-height: 1.5rem;
 }
+
+.primary-btn {
+    font-size: 1.21rem;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 20px 24px;
+    color: white;
+    background-color: rgba(255, 144, 14, 1);
+    border: none;
+}
+
+
+/* ----------shared style end-------- */
 
 /* ---==-==header area style start------ */
 /* ------navbar style start=== */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
 .nav-container {
     justify-content: space-between;
     align-items: center;
     padding-top: clamp(1.75rem, 4vw, 2rem);
+    margin-bottom: clamp(2rem, 7vw, 6.25rem);
 }
 
 .nav-container .nav-menu .nav-item {
@@ -62,7 +83,6 @@
 .nav-container .nav-menu .nav-link {
     text-decoration: none;
     font-size: 1.2rem;
-
 }
 
 .nav-container .brand-logo {
@@ -71,4 +91,35 @@
 }
 
 /* ------navbar style end=== */
+/* --=-=-= banner style start---- */
+
+.banner-container .banner-content {
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-content .banner-heading {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin-bottom: 1.7rem;
+}
+
+.banner-container .banner-content .text-info {
+    margin-bottom: 2rem;
+}
+
+.banner-container .banner-img {
+    max-width: 1440px;
+    width: 100%;
+    padding-top: clamp(1.75rem, 4vw, 3rem);
+}
+
+.banner-container .banner-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* --=-=-= banner style end---- */
 /* ---==-==header area style end------ */

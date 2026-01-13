@@ -64,6 +64,9 @@
     font-weight: 600;
 }
 
+.teams {
+    margin-bottom: clamp(4rem, 9vw, 6.2rem);
+}
 
 /* ----------shared style end-------- */
 
@@ -129,3 +132,31 @@ header {
 
 /* --=-=-= banner style end---- */
 /* ---==-==header area style end------ */
+
+/* -----------main area style start--------- */
+
+/* ------teams section style start------ */
+.teams {
+    padding-top: clamp(3rem, 5vw, 5rem);
+}
+.teams-container{
+    align-items: center;
+    padding-inline: 4rem;
+}
+.teams-container .teams-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    /* max-width: 342px; */
+    width: 100%;
+}
+
+.teams-container .teams-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* ------teams section style end------ */
+
+/* -----------main area style end--------- */

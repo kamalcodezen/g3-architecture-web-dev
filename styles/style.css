@@ -29,8 +29,9 @@
 .dark-light-gray {
     color: #424242;
 }
+
 /* ---primary color */
-.yellow-color{
+.yellow-color {
     color: rgba(255, 144, 14, 1);
 }
 
@@ -38,3 +39,36 @@
 .display-flex {
     display: flex;
 }
+
+/* ----common text===== */
+.text-info {
+    font-size: 1rem;
+    font-weight: 1.25rem;
+}
+
+/* ---==-==header area style start------ */
+/* ------navbar style start=== */
+.nav-container {
+    justify-content: space-between;
+    align-items: center;
+    padding-top: clamp(1.75rem, 4vw, 2rem);
+}
+
+.nav-container .nav-menu .nav-item {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+.nav-container .nav-menu .nav-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+
+.nav-container .brand-logo {
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    font-weight: 700;
+}
+
+/* ------navbar style end=== */
+/* ---==-==header area style end------ */

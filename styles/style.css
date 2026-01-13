@@ -45,13 +45,13 @@
 .text-primary {
     font-size: 1rem;
     font-weight: 1.25rem;
-    color: #424242;
+    color: #727272;
     line-height: 1.5rem;
 }
 
 .primary-btn {
     font-size: 1.21rem;
-    font-weight: 500;
+    font-weight: 600;
     border-radius: 8px;
     padding: 20px 24px;
     color: white;
@@ -60,8 +60,9 @@
 }
 
 .section-heading {
-    font-size: clamp(1.75rem, 3.8vw, 22.9rem);
-    font-weight: 600;
+    font-size: clamp(2rem, 3vw, 2.8rem);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
 }
 
 .teams {
@@ -139,22 +140,37 @@ header {
 .teams {
     padding-top: clamp(3rem, 5vw, 5rem);
 }
-.teams-container{
+
+.teams-container {
     align-items: center;
-    padding-inline: 4rem;
+    padding-inline: clamp(1rem, 2.5vw, 2rem);
 }
+
 .teams-container .teams-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    /* max-width: 342px; */
-    width: 100%;
 }
 
 .teams-container .teams-img img {
+    max-width: 342px;
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.teams-container .teams-content {
+    padding-left: clamp(3.5rem, 4.6vw, 4.5625rem);
+    max-width: 537px;
+    width: 100%;
+}
+
+#quick-list {
+    font-weight: 500;
+}
+
+.teams-content .teams-info {
+    margin-bottom: 2rem;
 }
 
 /* ------teams section style end------ */

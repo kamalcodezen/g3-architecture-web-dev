@@ -59,6 +59,11 @@
     border: none;
 }
 
+.section-heading {
+    font-size: clamp(1.75rem, 3.8vw, 22.9rem);
+    font-weight: 600;
+}
+
 
 /* ----------shared style end-------- */
 
@@ -113,6 +118,7 @@ header {
     max-width: 1440px;
     width: 100%;
     padding-top: clamp(1.75rem, 4vw, 3rem);
+    padding-bottom: 2.9rem;
 }
 
 .banner-container .banner-img img {

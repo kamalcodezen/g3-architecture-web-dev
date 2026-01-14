@@ -67,7 +67,7 @@
 
 .teams,
 .feature {
- margin-bottom: clamp(4rem, 9vw, 6.2rem);
+    margin-bottom: clamp(4rem, 9vw, 6.2rem);
 }
 
 /* ----------shared style end-------- */
@@ -211,6 +211,25 @@ header {
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+.feature-container .feature-img .experience-badge {
+    padding: 2.625rem 2.875rem;
+    background-color: rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    border: none;
+}
+
+.feature-img .experience-badge .experience-year {
+    font-size: 45px;
+    font-weight: 800;
+    color: white;
+}
+
+.feature-img .experience-badge .experience-text {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
 }
 
 /* =======feature section style end----- */

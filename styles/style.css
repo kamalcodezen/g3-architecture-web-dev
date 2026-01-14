@@ -65,7 +65,8 @@
 }
 
 .teams,
-.feature {
+.feature,
+.sponsors {
     margin-bottom: clamp(4rem, 9vw, 6.2rem);
 }
 
@@ -265,6 +266,7 @@ header {
 .facts-container .fact-card-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 137px;
     padding-inline: 2rem;
     justify-content: space-between;
 }
@@ -284,6 +286,23 @@ header {
 
 /* ===------some fact section style end-==== */
 /* -----sponsors style start------ */
+.sponsors-container .sponsors-content {
+    max-width: 542px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsors-content .sponsor-info {
+    margin-bottom: 3rem;
+}
+
+.sponsors-container .company-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(166px, 1fr));
+    gap: clamp(2rem, 10vw, 8rem);
+    ;
+}
 
 /* -----sponsors style end------ */
 /* -----------main area style end--------- */

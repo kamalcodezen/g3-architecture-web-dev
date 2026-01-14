@@ -5,17 +5,31 @@
 @media screen and (max-width: 1199px) {}
 
 /* Tablet (Landscape) : 768px → 991px */
-@media screen and (max-width: 991px) {}
+@media screen and (max-width: 991px) {
+    .teams-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .teams-container .teams-img {
+        margin-bottom: 2rem;
+    }
+}
 
 /* Large Mobile : 576px → 767px */
 @media screen and (max-width: 767px) {}
 
 /* Mobile : 360px → 575px */
 @media screen and (max-width: 575px) {
-    .nav-container .nav-menu .nav-item{
+    .nav-container .nav-menu .nav-item {
         display: none;
     }
-    .nav-container{
+
+    .nav-container {
         justify-content: center;
+    }
+
+    .teams-container .teams-img {
+        grid-template-columns: 1fr;
     }
 }

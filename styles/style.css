@@ -253,6 +253,7 @@ header {
 .fact-card .card-details .card-number {
     font-size: 2.7rem;
     font-weight: 600;
+    margin-top: 10px;
     margin-bottom: 5px;
 }
 
@@ -264,19 +265,22 @@ header {
 .facts-container .fact-card-box {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 100px;
     padding-inline: 2rem;
+    justify-content: space-between;
 }
 
 .fact-card-box .fact-card {
     border: 1px solid rgba(255, 144, 14, 1);
     border-radius: 8px;
     height: 241px;
+    width: 241px;
     align-items: center;
     justify-content: center;
 }
- .fact-card-box .fact-card   .card-details{
+
+.fact-card-box .fact-card .card-details {
     text-align: center;
- }
+}
+
 /* ===------some fact section style end-==== */
 /* -----------main area style end--------- */

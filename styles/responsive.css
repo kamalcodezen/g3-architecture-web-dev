@@ -31,10 +31,18 @@
         margin-left: -20px;
 
     }
+
+    facts-container .fact-card-box {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Large Mobile : 576px → 767px */
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    facts-container .fact-card-box {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
 
 
 /* Mobile : 360px → 575px */
@@ -62,6 +70,9 @@
     .feature-container .feature-img .experience-badge {
         margin-top: -40px;
         margin-left: 10px;
+    }
 
+    .facts-container .fact-card-box {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

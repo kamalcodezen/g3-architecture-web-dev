@@ -65,8 +65,9 @@
     margin-bottom: 1.5rem;
 }
 
-.teams {
-    margin-bottom: clamp(4rem, 9vw, 6.2rem);
+.teams,
+.feature {
+ margin-bottom: clamp(4rem, 9vw, 6.2rem);
 }
 
 /* ----------shared style end-------- */
@@ -176,8 +177,40 @@ header {
 /* ------teams section style end------ */
 
 /* =======feature section style start----- */
+.feature .feature-container {
+    align-items: center;
+    gap: clamp(4rem, 8vw, 8rem);
+}
+
 .feature-content .section-heading {
-    
+    max-width: 468px;
+    width: 100%;
+    padding-left: 1.25rem;
+    border-left: 5px solid rgba(255, 144, 14, 1);
+}
+
+.feature-content .feature-info {
+    margin-bottom: 1.9rem;
+}
+
+.feature-content .feature-card {
+    margin-top: 0;
+    border-radius: 8px;
+    padding: 1.9rem;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+
+}
+
+.feature-container .feature-img {
+    max-width: 708px;
+    width: 100%;
+}
+
+.feature-container .feature-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /* =======feature section style end----- */

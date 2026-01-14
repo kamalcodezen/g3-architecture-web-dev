@@ -144,26 +144,26 @@ header {
 .teams-container {
     align-items: center;
     padding-inline: clamp(0.875rem, 1.5vw, 2rem);
-    gap: clamp(3rem, 4.6vw, 5.5625rem)
 }
 
 .teams-container .teams-img {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: clamp(0.875rem, 1.5vw, 1rem);
+    gap: 1.2rem;
 }
 
 .teams-container .teams-img img {
-    /* max-width: 342px; */
+    max-width: 342px;
     width: 100%;
     height: auto;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .teams-container .teams-content {
-    /* padding-left: clamp(3rem, 4.6vw, 5.5625rem); */
     max-width: 537px;
     width: 100%;
+    padding-left: clamp(2rem, 3vw, 4rem);
+
 }
 
 #quick-list {
@@ -182,16 +182,16 @@ header {
     gap: clamp(1rem, 6vw, 8rem);
 }
 
-.feature-container.feature-content {
-    max-width: 586px;
-    width: 100%;
-}
-
 .feature-content .section-heading {
     max-width: 468px;
     width: 100%;
     padding-left: 1.25rem;
     border-left: 5px solid rgba(255, 144, 14, 1);
+}
+
+.feature-content .feature-card .card-title {
+    font-weight: 600;
+    font-size: 1.25rem;
 }
 
 .feature-content .feature-info {
@@ -201,10 +201,9 @@ header {
 .feature-content .feature-card {
     margin-top: 0;
     border-radius: 8px;
-    padding: 1.3rem;
+    padding: 30px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
     margin-bottom: 20px;
-
 }
 
 .feature-container .feature-img {
@@ -215,21 +214,21 @@ header {
 .feature-container .feature-img img {
     width: 100%;
     height: auto;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .feature-container .feature-img .experience-badge {
-    padding: 2.625rem 2.875rem;
+    padding: 42px 42px;
     background-color: rgba(255, 144, 14, 1);
     border-radius: 8px;
     border: none;
-    margin-top: -10rem;
-    margin-left: -4rem;
+    margin-top: -105px;
+    margin-left: -80px;
 }
 
 .feature-img .experience-badge .experience-year {
-    font-size: clamp(1.5rem, 3vw, 2.8rem);
-    font-weight: 800;
+    font-size: 3.8rem;
+    font-weight: 700;
     color: white;
 }
 
@@ -237,6 +236,10 @@ header {
     font-size: 1.5rem;
     color: white;
     font-weight: 500;
+}
+
+.hide {
+    display: none;
 }
 
 /* =======feature section style end----- */

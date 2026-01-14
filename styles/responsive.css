@@ -1,8 +1,15 @@
 /* Extra Large Desktop : 1400px → ∞ */
 @media screen and (min-width: 1400px) {}
 
+
+
 /* Small Desktop / Laptop : 992px → 1199px */
-@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 1199px) {
+    .feature-container .feature-img .experience-badge {
+        margin-top: -50px;
+        margin-left: -30px;
+    }
+}
 
 /* Tablet (Landscape) : 768px → 991px */
 @media screen and (max-width: 991px) {
@@ -14,10 +21,21 @@
     .teams-container .teams-img {
         margin-bottom: 2rem;
     }
+
+    .feature .feature-container {
+        flex-direction: column;
+    }
+
+    .feature-container .feature-img .experience-badge {
+        margin-top: -70px;
+        margin-left: -20px;
+
+    }
 }
 
 /* Large Mobile : 576px → 767px */
 @media screen and (max-width: 767px) {}
+
 
 /* Mobile : 360px → 575px */
 @media screen and (max-width: 575px) {
@@ -31,5 +49,19 @@
 
     .teams-container .teams-img {
         grid-template-columns: 1fr;
+    }
+
+    .teams-container .teams-content {
+        padding-left: 0px;
+    }
+
+    .feature-img .experience-badge .experience-year {
+        font-size: 2.9rem;
+    }
+
+    .feature-container .feature-img .experience-badge {
+        margin-top: -40px;
+        margin-left: 10px;
+
     }
 }
